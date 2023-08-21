@@ -1,5 +1,5 @@
 def main():
-    text = input("Enter a sentence or paragraph: ")
+    text = input("Enter a sentence : ")
     words = text.split()
     word_count = len(words)
     print("Word count:", word_count)
